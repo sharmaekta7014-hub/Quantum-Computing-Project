@@ -1,10 +1,10 @@
-# Quantum Dice Simulator 🎲
+# Quantum Dice Simulator 
 
 This project simulates a **quantum dice** using Qiskit. Instead of using classical randomness, it relies on real quantum measurements to generate unbiased dice outcomes (1–6). The code uses a 3-qubit circuit, Hadamard gates for superposition, and measurement results to map outcomes to dice values.
 
 ---
 
-## 🚀 Features
+## Features
 
 * Uses **QuantumCircuit** from Qiskit.
 * Generates **true quantum randomness**.
@@ -14,7 +14,7 @@ This project simulates a **quantum dice** using Qiskit. Instead of using classic
 
 ---
 
-## 📂 Code Overview
+##  Code Overview
 
 ### **1. `quantum_dice_single_roll()`**
 
@@ -38,7 +38,7 @@ Generates **n** quantum dice values by repeatedly calling the roll function.
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 Make sure the following packages are installed:
 
@@ -48,7 +48,7 @@ pip install qiskit numpy matplotlib
 
 ---
 
-## ▶️ How to Run
+##  How to Run
 
 1. Clone the repository:
 
@@ -70,7 +70,7 @@ python quantum_dice.py
 
 ---
 
-## 🧠 How It Works (Simple Explanation)
+## How It Works (Simple Explanation)
 
 * Quantum gates put qubits into all possible states at once.
 * Measurement collapses them into one random state.
@@ -81,23 +81,23 @@ This ensures the dice behaves as a **fair quantum random number generator**.
 
 ---
 
-## 📘 Notes
+##  Notes
 
 * If you have a real IBM Quantum account, you can modify the backend to run on actual hardware.
 * Increase `shots` or `n` to test uniformity.
 
 ---
 
-## 📄 License
+## License
 
 This project is open-source. Feel free to use or modify it.
 
 ---
 
-## 🤝 Contributions
+##  Contributions
 
 Pull requests are welcome! If you'd like to add improvements—visualizations, real backend support, or GUI—go ahead.
 
 ---
 
-Happy Quantum Rolling! 🎲✨
+Happy Quantum Rolling! 
